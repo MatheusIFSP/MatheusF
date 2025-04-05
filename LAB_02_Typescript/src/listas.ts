@@ -1,5 +1,6 @@
-// Lista de n ú meros
+// Lista de números
 let numbers : number [] = [1 , 2 , 3 , 4 , 5];
+
 // Lista de strings
 let nomes : string [] = [" Ana " , " Jo ã o " , " Maria "];
 let posJoao : number = nomes . indexOf (" Jo ã o ")

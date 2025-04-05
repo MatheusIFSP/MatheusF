@@ -1,7 +1,7 @@
 let idade1 : number = 18;
 
 if ( idade < 12) {
-console.log (" Crian ç a ") ;
+console.log (" Criança ") ;
 } else if ( idade < 18) {
 console.log (" Adolescente ") ;
 } else {
