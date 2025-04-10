@@ -176,10 +176,27 @@ console.log(mesDesejado)
 
                             //Exercício 1 - LAB 06//
 
-type Tarefa = {
-    descricao: string;
-    prioridade: number;
-    concluida: Boolean;
-};
 
-function executarTarefas[] = Tarefa[]
+
+                            //Exercício 1 - LAB 07//
+
+class Livro {
+    titulo: string
+    autor: string
+    anoPublicacao: number
+    editora: string
+
+    constructor(titulo: string, autor: string, anoPublicacao: number, editora: string){
+    this.titulo = titulo
+    this.autor = autor
+    this.anoPublicacao = anoPublicacao
+    this.editora = editora
+    }
+
+    exibirDados(){
+        console.log(`Título: $(this.titulo)
+            Autor: $(this.autor)
+            Ano de Publicação: $(this.anoPublicacao)
+            Editora: $(this.editora)`)
+    }
+}
