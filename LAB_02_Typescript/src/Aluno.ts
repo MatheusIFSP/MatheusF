@@ -1,4 +1,4 @@
-class Alunos{
+export class Alunos{
     nome: string
     matricula: string
     idade: number

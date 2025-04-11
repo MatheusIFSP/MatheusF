@@ -97,6 +97,10 @@ for (const num of numeros3) {
 }
 console.log(`Multiplos de 3: ${multiplosde3}\nMultiplos de 5: ${multiplosde5}\nOutros: ${outros}`)
 
+for(const num of numeros){
+    
+}
+
                             //Exercício Adicional - LAB 03//
 
                             //Exercício 1 - Funções - LAB 04//
@@ -182,6 +186,8 @@ type Tarefa = {
     concluida: Boolean;
 };
 
+
+
                             //Exercício 2 - LAB 07//
 
 class Livro {
@@ -207,17 +213,13 @@ class Livro {
     }
 }
                             
-                            
                             //Exercício 2 - LAB 07//
                             
-                            
-                            
-                            
-                            
-                            
+const Sapiens = new Livro("Sapiens", "Yuval Harari", 2011, "L&PM editores")
+const PequenoPrincipe = new Livro("O Pequeno Príncipe", "Antoine de Saint-Exupéry", 1943, "Éditions Gallimard")   
+                              
                             //Exercício 3 - LAB 07//
-                            
-                            
+                                
 class Usuario {
     nome: string
     email: string
@@ -236,7 +238,22 @@ class Usuario {
                             
 const boasvindas = new Usuario("Matheus", "matheus.f.rodrigues2006@gmail.com")
 boasvindas.boasVindas()
+
+                            //Exercício 4 - LAB 07//
                             
+class Carro {
+    marca: string
+    modelo: string
+    ano: number
+
+    constructor(marca: string, modelo: string, ano: number){
+        this.marca = marca
+        this.modelo = modelo
+        this.ano = ano
+    }
+}
+
+
                             
                             //Exercício 5 - LAB 07//
                             
@@ -260,3 +277,43 @@ export class Produtos {
 const prod = new Produtos("Notebook", 3500)
 prod.mostrarInformacoes()
                             
+                            //Exercício 1 - LAB 08//
+
+class DateUtils {
+
+}
+
+                            //Exercício 2 - LAB 08//
+
+interface Livros {
+    titulo: string
+    autor: string
+    anoPublicacao: number
+}
+const sapiens: Livros = {
+    titulo: "Sapiens",
+    autor: "Yuval Harari",
+    anoPublicacao: 2011
+}
+
+                            //Exercício 3 - LAB 08//
+
+interface Veiculo {
+    marca: string
+    modelo: string
+    ligar(): void
+}
+class Carroo implements Veiculo {
+    marca: string
+    modelo: string
+    constructor(marca: string, modelo: string){
+        this.marca = marca
+        this.modelo = modelo
+    }
+    ligar(): void{
+        
+    }
+    nomeCarro(): void {
+        console.log("Corsa")
+    }
+}
