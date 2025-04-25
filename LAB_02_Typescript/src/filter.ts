@@ -5,4 +5,4 @@ console.log( palavras )
 
 const resultado0 = palavras.filter( item => item.length > 5)
 
-console.log(resultado)
+console.log(resultado0)
