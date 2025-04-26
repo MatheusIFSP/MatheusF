@@ -18,7 +18,7 @@ class Exercicio2 {
     }
 
     if (a instanceof Date) {
-        const dia = string(a.getDate()) 
+        //const dia = string(a.getDate()) 
     }
 
     if (typeof a == 'boolean') {
