@@ -1,3 +1,5 @@
+
+//Exercício 1//
 class Livro {
     titulo: string
     autor: string
@@ -20,14 +22,17 @@ class Livro {
             Editora: ${this.editora}`)
     }
 }
-                            
-                            //Exercício 2 - LAB 07//
-                            
+
+//Exercício 2//
+
 const Sapiens = new Livro("Sapiens", "Yuval Harari", 2011, "L&PM editores")
 const PequenoPrincipe = new Livro("O Pequeno Príncipe", "Antoine de Saint-Exupéry", 1943, "Éditions Gallimard")   
-                              
-                            //Exercício 3 - LAB 07//
-                                
+
+Sapiens.exibirDados()
+PequenoPrincipe.exibirDados()
+
+//Exercício 3//                        
+                            
 class Usuario {
     nome: string
     email: string
@@ -47,8 +52,8 @@ class Usuario {
 const boasvindas = new Usuario("Matheus", "matheus.f.rodrigues2006@gmail.com")
 boasvindas.boasVindas()
 
-                            //Exercício 4 - LAB 07//
-                            
+//Exercício 4
+
 class Carro {
     marca: string
     modelo: string
@@ -59,13 +64,13 @@ class Carro {
         this.modelo = modelo
         this.ano = ano
     }
+    mostrarCarro(){
+        console.log(`\nModelo: ${this.modelo}\nMarca: ${this.marca}\nAno: ${this.ano}`)
+    }
 }
 
+//Exercício 5
 
-                            
-                            //Exercício 5 - LAB 07//
-                            
-                            
 export class Produtos {
     nome: string
     preco: number

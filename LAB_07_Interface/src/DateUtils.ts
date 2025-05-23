@@ -1,6 +1,5 @@
-                            //Exercício 1 - LAB 08//
+export class DateUtils{
 
-class DateUtils {
     formatarData(data: Date, formato: string): string{
         let dataFormatada:string = ''
         let sepador = '/'
@@ -52,40 +51,5 @@ class DateUtils {
 
     converterParaISO(data: Date): string{
         return data.toISOString()
-    }
-}
-
-                            //Exercício 2 - LAB 08//
-
-interface Livros {
-    titulo: string
-    autor: string
-    anoPublicacao: number
-}
-const sapiens: Livros = {
-    titulo: "Sapiens",
-    autor: "Yuval Harari",
-    anoPublicacao: 2011
-}
-
-                            //Exercício 3 - LAB 08//
-
-interface Veiculo {
-    marca: string
-    modelo: string
-    ligar(): void
-}
-class Carroo implements Veiculo {
-    marca: string
-    modelo: string
-    constructor(marca: string, modelo: string){
-        this.marca = marca
-        this.modelo = modelo
-    }
-    ligar(): void{
-        
-    }
-    nomeCarro(): void {
-        console.log("Corsa")
     }
 }

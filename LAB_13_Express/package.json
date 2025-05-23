@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.21",
+    "express": "^5.1.0",
+    "typescript": "^5.8.3"
+  },
+  "name": "matheusf",
+  "version": "1.0.0",
+  "description": "## 📖 Sobre a Disciplina",
+  "main": "meunome.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
